@@ -23,7 +23,10 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="screen">
   </head>
 
-  <body>
+<body>
+<!--Nav bar-->
+<!--Template taken from Bootstrap-->
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="d-flex flex-grow-1">
         <a class="navbar-brand d-none d-lg-inline-block" href="#">Go Skate! <img src="assets/img/logowhite.png" alt="logo">
@@ -39,64 +42,57 @@
     <div class="collapse navbar-collapse flex-grow-1 text-left" id="myNavbar">
         <ul class="navbar-nav ml-auto flex-nowrap">
             <li class="nav-item">
-                <a href="#" class="nav-link m-2 menu-item nav-active">Home</a>
+                <a href="index.html" class="nav-link m-2 menu-item nav-active">Home</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link m-2 menu-item">About</a>
+                <a href="about.html" class="nav-link m-2 menu-item">About</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link m-2 menu-item">Testimonials</a>
+                <a href="testimonials.html" class="nav-link m-2 menu-item">Testimonials</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link m-2 menu-item">Sign up</a>     
+                <a href="signup.html" class="nav-link m-2 menu-item">Sign up</a>     
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link m-2 menu-item">Contact</a>
+                <a href="contact-us.html" class="nav-link m-2 menu-item">Contact</a>
             </li>
         </ul>
     </div>
 </nav>
 
-    <section class="sign-up-backround">
-      <div class="sign-up-form container-fluid">
-        
-        <h2>Sign Up Now!</h2><i class="fa fa-user-circle-o fa-2x"></i>
-        <form>
-          <input type="email" class="input-box" placeholder="Your Email" />
-          <input type="email" class="input-box" placeholder="Your Password" />
-
-          <button type="button" class="sign-up-btn">Sign up</button>
-          <hr />
-          <p class="or">OR</p>
-          <button
-            type="button"
-            class="sign-up-btn"
-            formaction="https://www.facebook.com"
-          >
-            Sign up with Facebook
-          </button>
-        </form>
-      </div>
-    </section>
+	<section class="sign-up-backround">
+		<div class="sign-up-form container-fluid">
+	
+			<h2>Sign Up Now!</h2><i class="fa fa-user-circle-o fa-2x"></i>
+			<form>
+				<input type="name" class="input-box" placeholder="Your Full Name" />
+				<input type="email" class="input-box" placeholder="Your Email" />
+	
+				<button type="button" class="btn-lg btn-primary">Sign up</button>
+				<span class="d-inline d-sm-none"><br></span>
+				<p class="or">OR</p>
+				<button type="submit" class="btn-lg btn-primary" formaction="https://www.facebook.com">
+	            Sign up with Facebook
+	          </button>
+			</form>
+		</div>
+	</section>
 
 <!--Footer-->
 	<footer>
 		<div class="row justify-content-center">
 
-			<div class="col-sm-5 text-center">
-				<img src="assets/img/logowhite.png" alt="logo">
-				<h3>Go Skate!</h3>
-				<p>We help you make connections through skateboarding through signing
-					up to our online community.</p>
+			<div class="col-md-4 text-center">
+				
+				<h6>Go Skate! <img src="assets/img/logowhite.png" alt="logo"></h6>
 				<strong>Contact Info :</strong>
-				<p>Tel: 00 000 0000<br>goskate@skate.com</p>
-	
-					<a href="https://www.facebook.com/" target="_blank"><i class=" fa fa-facebook fa-lg"></i></a>
-					<a href="https://www.instagram.com/" target="_blank"><i class=" fa fa-instagram fa-lg"></i></a>
-					<a href="https://www.twitter.com/" target="_blank"><i class=" fa fa-twitter fa-lg"></i></a>
+				<p><small>Tel: 00 000 0000<br>goskate@skate.com</small></p>
+					<a href="https://www.facebook.com/" target="_blank"><i class=" fa fa-facebook fa-md"></i></a>
+					<a href="https://www.instagram.com/" target="_blank"><i class=" fa fa-instagram fa-md"></i></a>
+					<a href="https://www.twitter.com/" target="_blank"><i class=" fa fa-twitter fa-md"></i></a>
 			</div>
 			<hr class="footer-shell">
-			&copy; Leo Morgan Go Skate! 2020
+			&copy; <small>Leo Morgan Go Skate! 2020</small>
 		</div>
 	</footer>
 
