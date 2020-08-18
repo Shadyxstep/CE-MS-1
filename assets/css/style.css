@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Nav Styling*/
+
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgba(0, 0, 0)!important;
+}
+
+.navbar a {
+    color: #fff;
+}
+
+.navbar img {
+    height: 3rem;
+}
+
+.navbar-nav li {
+   padding-right: .5rem;
+}
+
+.navbar-brand-two {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link .navbar-brand-two.active,
+.navbar-dark .navbar-nav .nav-link .navbar-brand-two:hover {
+    color: #000;
+}
+
+
+
+
+/*Landing page styling*/
+
+.callout-container {
+    height: 100vh;
+
+    background: url('../img/skatedark1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+/* Jumbotron Text Styling */
+
+.jumbotron {
+    background: transparent;
+}
+
+.jumbotron-header {
+    margin-top: 40px;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.lead {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.block-divider {
+    border: 1px solid #fff;
+    margin-left: 5rem;
+    margin-right:5rem;
+}
+
+/* Button Styling */
+
+.btn {
+    background-color: rgba(255, 255, 255, 0.911);
+    border: 1px solid #000;
+    margin-bottom: 30px;
+    padding:30px;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus,
+.btn:active:focus {
+    background-color:rgba(44, 43, 43, 0.829);
+    border-color: #000;
+    color: #fff;
+}
+
+/* About page styling */
+
+.about-container {
+    height: 100vh;
+
+    background: url('../img/skatejump.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+.about-us {
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.jumbotron-about {
+    padding: 20px;
+    margin-top: 3rem;
+    margin-bottom:1.5rem;
+    color: #fff;
+    font-size: 3.5rem;
+}
+
+.about-p {
+    color: #fff;
+    padding: 30px;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    font-size: 1.5rem;
+}
+
+.about-mem {
+    color:#fff;
+    font-size: 1.5rem;
+}
+
+.meet {
+    font-size: 1.5rem;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.opaque-overlay-two {
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Carousel Testimonial Styling */
+
+.carousel-item img{
+    max-width:100%;
+    height:auto;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-caption h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    text-shadow: .1rem .1rem .8rem black; /*---Text shadow helps to see text better on lighter backrounds */
+    padding-bottom: .5rem;
+}
+
+.carousel-caption p {
+    font-size: 2rem;
+    text-shadow: .05rem .05rem .08rem black;
+}
+
+.absolute-div { /*-- Black transparent overlay to help with reading text*/
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/*Footer*/
+
+footer {
+    background-color: #40474e;
+    color: #fff;
+    padding: 2rem 0 3rem;
+    margin-top: .8rem;
+}
+
+footer img {
+    height: 5rem;
+    margin: 0.5rem 0;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer svg.svg-inline--fa {
+    margin: 1.2rem .5rem 0 0;
+}
+
+footer svg.svg-inline--fa:hover {
+    color:rgba(0, 0, 0, 0.25);
+}
+
+hr.footer-shell {
+    border-top: .2rem solid rgba(0, 0, 0, 0.6);
+    width: 100%;
+}
+
+/* -------------BOOTSRAP BREAKPOINTS*/
+
+/* Extra small devices (portrait phones, less than 576px)
+/ No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+/ Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+/* Media Queries */
+
