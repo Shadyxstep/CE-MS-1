@@ -7,6 +7,17 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+/*Fix for white margin bug appearing on right side of x small screens*/
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 /*Navbar Styling*/
 
 .navbar {
@@ -186,7 +197,7 @@ body {
 
 .carousel-item img {
   max-width: 100%;
-  height: auto;
+  height: 100%;
   position: relative;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -317,6 +328,7 @@ i {
 
 /*-- CONTACT FORM --*/
 
+
 .contact-bg {
   height: 100vh;
 
@@ -348,8 +360,7 @@ i {
   border-radius: 5px;
   text-align: center;
   box-shadow: 0 0 10px #000000b3;
-  margin-top: 1.8rem;
-  margin-bottom: 1.8rem;
+  margin: 0;
 }
 
 .contact-form h2 {
@@ -361,8 +372,8 @@ i {
 
 .txtb {
   border: 1px solid gray;
-  margin: 3px 0;
-  padding: 5px 10px;
+  margin: 4px 0;
+  padding: 8px 10px;
   border-radius: 5px;
 }
 
@@ -382,8 +393,9 @@ i {
   background: none;
   outline: none;
   font-size: 14px;
-  margin-top: 6px;
+  margin-top: 4px;
   color: #fff;
+  padding-bottom: 20px;
 }
 
 input[type="text"] {
@@ -430,4 +442,51 @@ input[type="text"] {
   margin-bottom: 2rem;
 }
  }
+
+ /* iPhone 5 Media Query */
+
+ @media only screen and (min-device-width: 320px) and (max-device-width: 568px) 
+and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71)
+{
+   .about-us {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 10px;
+}
+
+  .jumbotron-about {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 10px;
+  margin-top: 1.5rem;
+  margin-bottom: .5rem;
+  color: #fff;
+  font-size: 1.75rem;
+}
+
+.about-p {
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  font-size: 1rem;
+}
+
+.about-mem {
+  color: #fff;
+  font-size: .5rem;
+  padding: 15px;
+}
+
+.meet {
+  font-size: 1rem;
+  padding: 10px;
+  font-weight: 700;
+  margin-bottom: 10px
+}
+}
  

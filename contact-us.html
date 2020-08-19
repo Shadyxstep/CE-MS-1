@@ -1,176 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
-    />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <title>
-      Go Skate! | Responsive CE Milestone project with Bootstrap / HTML5 / CSS
-    </title>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!--BOOTSTRAP CSS-->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      type="text/css"
-    />
+	<title>
+		Go Skate! | Responsive CE Milestone project with Bootstrap / HTML5 / CSS
+	</title>
 
-    <!--FONT AWESOME CSS-->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      type="text/css"
-    />
+	<!--BOOTSTRAP CSS-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		type="text/css" />
 
-    <!--HOVER.CSS-->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
-      type="text/css"
-    />
+	<!--FONT AWESOME CSS-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		type="text/css" />
 
-    <!--STYLE.CSS-->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="assets/css/style.css"
-      media="screen"
-    />
-  </head>
+	<!--HOVER.CSS-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+		type="text/css" />
 
-  <body>
+	<!--STYLE.CSS-->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" media="screen" />
+</head>
 
-    <!--NAV BAR-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
-      <div class="d-flex flex-grow-1">
-        <span class="w-100 d-lg-none d-block"
-          ><!-- hidden spacer to center brand on mobile --></span
-        >
-        <a class="navbar-brand" href="index.html">
-          Go Skate!
+<body>
+
+	<!--NAV BAR-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="d-flex flex-grow-1">
+        <a class="navbar-brand d-none d-lg-inline-block" href="#">Go Skate! <img src="assets/img/logowhite.png" alt="logo">
+        </a>
+        <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="index.html">Go Skate!
         </a>
         <div class="w-100 text-right">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#myNavbar7"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
         </div>
-      </div>
-      <div
-        class="collapse navbar-collapse flex-grow-1 text-right"
-        id="myNavbar7"
-      >
+    </div>
+    <div class="collapse navbar-collapse flex-grow-1 text-left" id="myNavbar">
         <ul class="navbar-nav ml-auto flex-nowrap">
-          <li class="nav-item">
-            <a href="index.html" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="about.html" class="nav-link">About</a>
-          </li>
-          <li class="nav-item">
-            <a href="Testimonials" class="nav-link">Testimonials</a>
-          </li>
-          <li class="nav-item">
-            <a href="signup.html" class="nav-link">Sign up</a>
-          </li>
-          <li class="nav-item">
-            <a href="contact-us.html" class="nav-link">Contact Us</a>
-          </li>
+            <li class="nav-item">
+                <a href="index.html" class="nav-link m-2 menu-item nav-active">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="about.html" class="nav-link m-2 menu-item">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="testimonials.html" class="nav-link m-2 menu-item">Testimonials</a>
+            </li>
+            <li class="nav-item">
+                <a href="signup.html" class="nav-link m-2 menu-item">Sign up</a>     
+            </li>
+            <li class="nav-item">
+                <a href="contact-us.html" class="nav-link m-2 menu-item">Contact</a>
+            </li>
         </ul>
-      </div>
-    </nav>
+    </div>
+</nav>
 
-    <section>
-      <div class="container-fluid contact-bg justify-content-center">
-        <div class="contact-form">
-          <h2>Contact us <i class="fa fa-comments" aria-hidden="true"></i></h2>
-          <div class="txtb">
-            <label>Full Name :</label>
-            <input type="text" name="" value="" placeholder="Enter Your Name" />
-          </div>
+<!--Contact Section-->
 
-          <div class="txtb">
-            <label>Email :</label>
-            <input
-              type="text"
-              name=""
-              value=""
-              placeholder="Enter Your Email"
-            />
-          </div>
+<section>
+	<div class="container-fluid contact-bg justify-content-center">
+		<div class="container-fluid contact-form">
+			<h2>Contact us <i class="fa fa-comments" aria-hidden="true"></i></h2>
+				<div class="txtb">
+					<label>Full Name :</label>
+					<input type="text" name="" value="" placeholder="Enter Your Name">
+	            </div>
+	
+				<div class="txtb">
+					<label>Email :</label>
+					<input type="text" name="email" value="email" placeholder="Enter Your Email">
+	            </div>
+	
+				<div class="txtb">
+					<label>Phone Number :</label>
+					<input type="text" name="phone num" value="number" placeholder="Enter Your Phone Number">
+	            </div>
+	
+				<div class="txtb">
+					<label>Message :</label>
+						<textarea></textarea>
+							<br>
+				</div>
+				<a class="btn">Send</a>
+			</div>
+		</div>
+	</section>
 
-          <div class="txtb">
-            <label>Phone Number :</label>
-            <input
-              type="text"
-              name=""
-              value=""
-              placeholder="Enter Your Phone Number"
-            />
-          </div>
+	<!--FOOTER-->
 
-          <div class="txtb">
-            <label>Message :</label>
-            <textarea></textarea>
-            <br>
-            <a class="btn">Send</a>
-          </div>
-        </div>
-      </div>
-    </section>
+<footer>
+	<div class="row justify-content-center">
+		<div class="col-md-4 text-center">
+			<h6>Go Skate! <img src="assets/img/logowhite.png" alt="logo" /></h6>
+				Contact Info :
+				<p>
+				<small>Tel: 00 000 0000 
+                        <br>
+                    goskate@skate.com</small>
+				</p>
+					<a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook fa-md"></i></a>
+					<a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-md"></i></a>
+					<a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter fa-md"></i></a>
+		</div>
+	<hr class="footer-shell" />
+	   &copy; <small>Leo Morgan Go Skate! 2020</small>
+	</div>
+</footer>
 
-    <!--FOOTER-->
+	<!--SCRIPTS-->
 
-    <footer>
-      <div class="row justify-content-center">
-        <div class="col-md-4 text-center">
-          <h6>Go Skate! <img src="assets/img/logowhite.png" alt="logo" /></h6>
-          Contact Info :
-          <p>
-            <small
-              >Tel: 00 000 0000 <br />
-              goskate@skate.com</small
-            >
-          </p>
-          <a href="https://www.facebook.com/" target="_blank"
-            ><i class="fa fa-facebook fa-md"></i
-          ></a>
-          <a href="https://www.instagram.com/" target="_blank"
-            ><i class="fa fa-instagram fa-md"></i
-          ></a>
-          <a href="https://www.twitter.com/" target="_blank"
-            ><i class="fa fa-twitter fa-md"></i
-          ></a>
-        </div>
-        <hr class="footer-shell" />
-        &copy; <small>Leo Morgan Go Skate! 2020</small>
-      </div>
-    </footer>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+		integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+	</script>
+</body>
 
-    <!--SCRIPTS-->
-
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
-  </body>
 </html>

@@ -1,4 +1,4 @@
-# Leo Morgan MS1 Project: Go Skate!
+# <a href="https://github.com/Shadyxstep/CE-Milestone-1">Go Skate!</a>
 
 !
 
@@ -15,6 +15,10 @@ with the goal of presenting my ability to design a responsive website using prog
 ## Wireframes
 
 1. Landing page link: https://wireframe.cc/0T2e8s
+
+![Sign Up Page Mock Wireframe](assets/img/signuppagebrowser.PNG)
+
+![About page on Tablet device mockup](assets/img/abouttabletdevice.PNG.PNG)
 
 ### Existing Features
 
@@ -70,12 +74,25 @@ https://git-scm.com/downloads
 
  2.  **Desktop**
      
-       * Google Chrome, Internet Edge & Mozilla Firefox browsers; all pages, links on those pages, and footer icon links perform well on all viewport sizes. Developer tools were also used on all browsers for the various viewport sizes.
+       * Tested viewport on Google Chrome, Internet Edge & Mozilla Firefox browsers; all pages, links on those pages, and footer icon links perform well on all viewport sizes. Developer tools were also used on all browsers for the various viewport sizes.
+         
+         Notes when testing across multiple browsers:
+
+         IE Explorer: displayed the navigation bar as a lighter colour than intended, see below:
+         ![IE Test Nav Bar Color](assets/img/internetexplorertest.PNG)
+
+         Chrome: No particular issue with testing on this brower. Seemed to work well throughout development.
+
+         
 
  3.  **Mobile**
 
-      *  Used my OnePlus 6T plus. 
-      Other phone models used to test responsiveness: iPhone 7, iPhone XS, OnePlus7T, OnePlus6, iPhone 11 Pro.     
+      *  Tested initially on my OnePlus 6T plus. 
+      Other phone models used to test responsiveness: iPhone 7, iPhone XS, OnePlus7T, OnePlus6, iPhone 11 Pro. 
+
+      Responsive issues were found with smaller devices such as iPhone 5 and earlier models, issues were predominantly text overflow &
+      a white margin appearing on right side of screen when attempting to navigate.
+      See images in Open issues section for further reference 
 
  4.  **Open Issues:**  
 
@@ -84,10 +101,11 @@ https://git-scm.com/downloads
  
 
 
- ![Text Overflow error](assets/img/textoverflow-error.png)
+ ![Text Overflow error](assets/img/textoverflow-error.PNG)
 
- ! <!--error imgs go here>
+ ![White margin bug on smaller screens](assets/img/textoverflow-error.PNG)
 
+ ![Margin error on small devices when navigating](assets/img/marginerror.PNG) marginerror.PNG
 
          
 ## Deployment
