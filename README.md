@@ -86,7 +86,7 @@ https://git-scm.com/downloads
  
 
 
- ![Text Overflow error](assets/img/textoverflow-error.png)
+ ![Text Overflow error](assets/img/textoverflow-error.PNG)
 
  ! <!--error imgs go here>
 
