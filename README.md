@@ -1,4 +1,4 @@
-# <a href="https://github.com/Shadyxstep/CE-Milestone-1">Go Skate!</a>
+# <a href="https://shadyxstep.github.io/CE-MS-1/index.html">Go Skate!</a>
 
 !
 
@@ -10,7 +10,7 @@ with the goal of presenting my ability to design a responsive website using prog
 ## UX
 
  The purpose of the site is to provide users with an online experience that focuses primarily providing users with the option of meeting new people through a voluntary sign up
- system. Users who sign up will be notified of other users in their area for meetups.
+ system. Users who sign up will be notified of other users in their area for meetups. My design is inspired by a minimalistic dark colour palette that encompasses the lifestyle associated with skateboarders around the globe.
 
 ## Wireframes
 
@@ -18,11 +18,11 @@ with the goal of presenting my ability to design a responsive website using prog
 
 ![Sign Up Page Mock Wireframe](assets/img/signuppagebrowser.PNG)
 
-![About page on Tablet device mockup](assets/img/abouttabletdevice.PNG.PNG)
+![About page on Tablet device mockup](assets/img/abouttabletdevice.PNG)
 
 ### Existing Features
 
-  * __Home page__ - An aesthetic landing page that encapsulates the style involved within the skateboarding community
+  * __Home page__ - An aesthetic yet minimal landing page that encapsulates the style involved within the skateboarding community
 
   * __About Page__ - An aesthetic landing page that demonstrates the purpose of the site and the vision of the website creator.
 
@@ -84,13 +84,17 @@ https://git-scm.com/downloads
          ![IE Test Nav Bar Color](assets/img/internetexplorertest.PNG)
 
          Chrome: No particular issue with testing on this brower. Seemed to work well throughout development.
+         
+         Firefox: No particular issue with testing on this brower. Seemed to work well throughout development.
 
          
 
  3.  **Mobile**
 
       *  Tested initially on my OnePlus 6T plus. 
-      Other phone models used to test responsiveness: iPhone 7, iPhone XS, OnePlus7T, OnePlus6, iPhone 11 Pro. 
+      Website was shared on social media to obtain peer review from friends. 
+      Phone models used to test responsiveness: iPhone 7, iPhone XS, OnePlus7T, OnePlus6, iPhone 11 Pro, OnePlus6, Samsung Galaxy S.
+      Issues were not reported with the above phones when reviews came in from my peers.
 
       Responsive issues were found with smaller devices such as iPhone 5 and earlier models, issues were predominantly text overflow &
       a white margin appearing on right side of screen when attempting to navigate.
@@ -101,13 +105,13 @@ https://git-scm.com/downloads
  My main issue developing this website was viewport issues and heading/paragraph text overflowing into footer on small mobile devices.
  I also issues deploying my code to a repository through PC Terminal, this was resolved through advice through my mentor. 
  
-
+ 
 
  ![Text Overflow error](assets/img/textoverflow-error.PNG)
 
  ![White margin bug on smaller screens](assets/img/textoverflow-error.PNG)
 
- ![Margin error on small devices when navigating](assets/img/marginerror.PNG) marginerror.PNG
+ ![Margin error on small devices when navigating](assets/img/marginerror.PNG)
 
          
 ## Deployment
