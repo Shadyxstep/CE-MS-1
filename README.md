@@ -70,10 +70,8 @@ https://git-scm.com/downloads
 
  ## Testing
 
- 1.  http://ami.responsivedesign.is/  has been used to see how the site performs on different Apple devices and their viewports, all pages, links, icons performed as expected on all devices. I also used it to create the AppleDevicesView.png at the top of this Readme.
+ 1.  http://ami.responsivedesign.is/  has been used to see how the site performs on different devices and viewports. The images found at the top of this document was screenshotted from this website to display responsiveness amongst devices of different sizes.
  
- ![responsive screenshot](assets/img/responsivesc.PNG)
-
  2.  **Desktop**
      
        * Tested viewport on Google Chrome, Internet Edge & Mozilla Firefox browsers; all pages, links on those pages, and footer icon links perform well on all viewport sizes. Developer tools were also used on all browsers for the various viewport sizes.
@@ -92,8 +90,8 @@ https://git-scm.com/downloads
  3.  **Mobile**
 
       *  Tested initially on my OnePlus 6T plus. 
-      Website was shared on social media to obtain peer review from friends. 
-      Phone models used to test responsiveness: iPhone 7, iPhone XS, OnePlus7T, OnePlus6, iPhone 11 Pro, OnePlus6, Samsung Galaxy S.
+      Website was shared on my personal social media to obtain peer review from friends. 
+      Phone models used by friends to test responsiveness: iPhone 7, iPhone XS, OnePlus7T, OnePlus6, iPhone 11 Pro, OnePlus6, Samsung Galaxy S.
       Issues were not reported with the above phones when reviews came in from my peers.
       
       ![Friend review 1](assets/img/friendreview.PNG)
@@ -102,15 +100,15 @@ https://git-scm.com/downloads
       ________________
       ![Friend review 3](assets/img/friendreview3.PNG)
       
-      Responsive issues were found with smaller devices such as iPhone 5 and earlier models, issues were predominantly text overflow &
+      Responsive issues were found with smaller devices such as iPhone 5 and earlier models through inspect element on chrome browser. Issues were predominantly text overflow &
       a white margin appearing on right side of screen when attempting to navigate.
       See images in Open issues section for further reference 
 
  4.  **Open Issues:**  
 
  My main issue developing this website was viewport issues and heading/paragraph text overflowing into footer on small mobile devices.
- I also issues deploying my code to a repository through PC Terminal, this was resolved through advice through my mentor. 
- 
+ My contact form also seemed to overspill on some medium devices but this was easily resolved through resizing the form.
+ I also had github issues deploying my code to a repository through Terminal, this was resolved through advice through my mentor. 
  
 
  ![Text Overflow error](assets/img/textoverflow-error.PNG)
@@ -193,5 +191,6 @@ https://www.youtube.com/watch?v=9cKsq14Kfsw
 2. Code Institute's Slack Channels and the many alunni,mentors, tutors and users who contribute to them; the many pinned announcements, pdf files, etc. were of great help.
 https://app.slack.com/client/T0L30B202/C0L316Z96
 
-3. Kevin Powell & his programming tutorials on YouTube which helped me immensely over the course of the last few weeks to help me understand HTML, CSS & responsive design in
-more depth. 
+3. Kevin Powell. His programming tutorials & coding livestreams on YouTube which helped me immensely over the course of the last few weeks to help me understand HTML, CSS & responsive design in more depth. 
+Link to his channel here
+https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw
