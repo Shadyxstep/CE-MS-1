@@ -67,6 +67,8 @@ https://git-scm.com/downloads
  ## Testing
 
  1.  http://ami.responsivedesign.is/  has been used to see how the site performs on different Apple devices and their viewports, all pages, links, icons performed as expected on all devices. I also used it to create the AppleDevicesView.png at the top of this Readme.
+ 
+ ![responsive screenshot](assets/img/responsivesc.PNG)
 
  2.  **Desktop**
      
