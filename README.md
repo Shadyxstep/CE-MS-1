@@ -1,6 +1,6 @@
 # <a href="https://shadyxstep.github.io/CE-MS-1/index.html">Go Skate!</a>
 
-!
+![responsive screenshot](assets/img/responsivesc.PNG)
 
 This site is 
 
