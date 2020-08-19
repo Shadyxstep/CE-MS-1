@@ -95,7 +95,11 @@ https://git-scm.com/downloads
       Website was shared on social media to obtain peer review from friends. 
       Phone models used to test responsiveness: iPhone 7, iPhone XS, OnePlus7T, OnePlus6, iPhone 11 Pro, OnePlus6, Samsung Galaxy S.
       Issues were not reported with the above phones when reviews came in from my peers.
-
+      
+      ![Sign Up Page Mock Wireframe](assets/img/friendreview.PNG)
+      ![Sign Up Page Mock Wireframe](assets/img/friendreview1.PNG)
+      ![Sign Up Page Mock Wireframe](assets/img/friendreview3.PNG)
+      
       Responsive issues were found with smaller devices such as iPhone 5 and earlier models, issues were predominantly text overflow &
       a white margin appearing on right side of screen when attempting to navigate.
       See images in Open issues section for further reference 
