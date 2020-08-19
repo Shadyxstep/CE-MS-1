@@ -75,7 +75,7 @@ https://git-scm.com/downloads
  3.  **Mobile**
 
       *  Used my OnePlus 6T plus. 
-      Friends phone models used to test responsiveness: iPhone 7, iPhone XS, OnePlus7T     
+      Other phone models used to test responsiveness: iPhone 7, iPhone XS, OnePlus7T, OnePlus6, iPhone 11 Pro.     
 
  4.  **Open Issues:**  
 
@@ -84,7 +84,7 @@ https://git-scm.com/downloads
  
 
 
- !
+ ![Text Overflow error](assets/img/textoverflow-error.png)
 
  ! <!--error imgs go here>
 
