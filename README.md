@@ -4,13 +4,13 @@
 
 This site is 
 
-Initial creation is for my first milestone project as a Full Stack software developer student of the Code Institute (https://codeinstitute.net/), 
-with the goal of presenting information to potential employers/recruiters who will be able to assess my qualifications quickly and efficiently.
+My initial development project as a Full Stack software developer student of the Code Institute (https://codeinstitute.net/), 
+with the goal of presenting my ability to design a responsive website using programming languages HTML5 & CSS3, and framework Bootstrap 4.
 
 ## UX
 
  The purpose of the site is to provide users with an online experience that focuses primarily providing users with the option of meeting new people through a voluntary sign up
- system. Users who sign up will be notified of other users in their area for meetups,
+ system. Users who sign up will be notified of other users in their area for meetups.
 
 ## Wireframes
 
@@ -31,8 +31,8 @@ with the goal of presenting information to potential employers/recruiters who wi
 
   ###  Features Left to Implement
 
-  * __Events__ - A page that notifies current users of news of past events and upcoming events that enables people to compete casually or competitively in skateboarding.
-
+  * __Events__ - A page that enables current users to view news of past events and upcoming events on site. 
+  
   
  ## Technologies Used
 
@@ -60,6 +60,9 @@ https://git-scm.com/downloads
  9. **Chrome DevTools:**   A set of web developer tools built directly into the Google Chrome browser.  I used these tools constantly thoughout the development cycle.    
  https://developers.google.com/web/tools/chrome-devtools
 
+ 10. **Wireframe** I used wireframe to create rough some rough mockups of various pages included in my site. Link below
+ https://wireframe.cc/
+
 
  ## Testing
 
@@ -71,15 +74,19 @@ https://git-scm.com/downloads
 
  3.  **Mobile**
 
-      *  Used my OnePlus 6T plus     
+      *  Used my OnePlus 6T plus. 
+      Friends phone models used to test responsiveness: iPhone 7, iPhone XS, OnePlus7T     
 
  4.  **Open Issues:**  
+
  My main issue developing this website was viewport issues and heading/paragraph text overflowing into footer on small mobile devices.
- I also had issues initially deploying my code to a repository through terminal.
+ I also issues deploying my code to a repository through PC Terminal, this was resolved through advice through my mentor. 
+ 
 
- !(assets/images/Bugs.png)
 
- ![765 viewport image](assets/images/Bugs2.PNG)
+ !
+
+ ! <!--error imgs go here>
 
 
          
@@ -111,7 +118,9 @@ To continue with cloning, you would;
 ''Course > Bootstrapping Your Next Big Idea With Bootstrap 4 > Beyond Bootstrap > Customizing Our Landing Page''
  link : https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/4b3b1b062b01424997c8fd052e177b8e/?child=first
 
- 3.
+3. All images used in this project taken from Unsplash. Free high resolution images. Link below
+   https://unsplash.com/
+
 
 
 ### Content
@@ -123,30 +132,34 @@ To continue with cloning, you would;
 
    3.  Google Fonts for font styles;  https://fonts.google.com/
 
+   4. All images used in this project taken from Unsplash. Free high resolution images. Link below
+   https://unsplash.com/
+
+   5. Image Carousel on Testimonial page taken from Bootstrap 4, learned to implement correctly from Drew Ryan Tutorials on YouTube. Link below.
+https://www.youtube.com/watch?v=9cKsq14Kfsw
+
 ### Media
 
-   1. Adobe Color for choosing a color palette for overall use on entire site; https://color.adobe.com/create#
+   1. Image Carousel on Testimonial page taken from Bootstrap 4, learned to implement correctly from Drew Ryan Tutorials on YouTube. Link below.
+    https://www.youtube.com/watch?v=9cKsq14Kfsw
 
-   2. Colorspace for my final color palette;  https://mycolor.space/
-
-   3. Used https://tinyjpg.com/   To compress .jpg images down to smaller size for better more efficient loading of web site.
-
-   4. Am I Responsive web site for checking responsiveness on all Apple devices screen sizes;
+   2. Am I Responsive web site for checking responsiveness on all Apple devices screen sizes;
    http://ami.responsivedesign.is/
 
-   5. W3schools.com; for code used on e-mail form; constantly referred to this web site for examples, explanations, their Pixel to Em Converter, etc. https://www.w3schools.com/
+   3. W3schools.com; for code used on e-mail form; constantly referred to this web site for examples, explanations, their Pixel to Em Converter, etc. https://www.w3schools.com/
 
-   6. Font Awesome for Social Media Icons & Form Icons; https://fontawesome.com/
+   4. Font Awesome for Social Media Icons & Form Icons; https://fontawesome.com/
 
-   7. https://stackoverflow.com/ 
+   5. https://stackoverflow.com/ 
       https://www.youtube.com 
+      https://www.codeinstitute.com
       
       These websites were used as a resource for finding answers to all types of coding problems.
 
 
 ### Acknowledgements
 
-1. Code Institute Mentor, Adbenga Adeye for direction on how to present 
+1. Code Institute Mentor, Adbenga Adeye for direction & advice on project presentation.
 
 2. Code Institute's Slack Channels and the many alunni,mentors, tutors and users who contribute to them; the many pinned announcements, pdf files, etc. were of great help.
 https://app.slack.com/client/T0L30B202/C0L316Z96
