@@ -97,9 +97,9 @@ https://git-scm.com/downloads
       Issues were not reported with the above phones when reviews came in from my peers.
       
       ![Friend review 1](assets/img/friendreview.PNG)
-      --
+      ________________
       ![Friend review 2](assets/img/friendreview2.PNG)
-      --
+      ________________
       ![Friend review 3](assets/img/friendreview3.PNG)
       
       Responsive issues were found with smaller devices such as iPhone 5 and earlier models, issues were predominantly text overflow &
